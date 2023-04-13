@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  /* border: 1px dashed #0808; */
+  box-sizing: border-box;
+}
+:root {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  background-color: indianred;
+  color: white;
+}
+img {
+  width: 100%;
+}
+h2 {
+  font-weight: 300;
+  font-size: 3em;
+}
+h4 {
+  font-weight: normal;
+  font-size: 1.2em;
+  color: #888;
+}
+
+/* ========== iframe... ========== */
+.data {
+  display: flex;
+}
+.data .github {
+  position: relative;
+  /* display: inline; */
+}
+.data iframe {
+  width: 30rem;
+  aspect-ratio: 16/9;
+  margin: 1em;
+  background-color: #fff;
+}
+.data .open {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  background-color: #0008;
+  padding: 0.2em;
+}
+
+/* ========== iframe. ========== */
